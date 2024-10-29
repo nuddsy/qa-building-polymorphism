@@ -6,6 +6,18 @@ public class Residential {
     private char councilTaxBand;
 
     private String address;
+
+
+    public Residential(char epcRating, char councilTaxBand, String address) {
+        this.setEpcRating(epcRating);
+        this.setCouncilTaxBand(councilTaxBand);
+        this.setAddress(address);
+    }
+
+    public Residential() {
+        this('?', '?',"UNKNOWN ADDRESS");
+    }
+
     public int estimateBills(){
         return 100;
     }
