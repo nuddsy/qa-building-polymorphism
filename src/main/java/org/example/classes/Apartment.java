@@ -12,6 +12,7 @@ public class Apartment extends Residential{
         this.setGroundRent(groundRent);
         this.setServiceCharge(serviceCharge);
         this.setFloor(floor);
+
     }
 
     public Apartment() {
