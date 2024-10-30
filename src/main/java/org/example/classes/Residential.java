@@ -1,6 +1,6 @@
 package org.example.classes;
 
-public class Residential {
+public class Residential extends Building{
 
     private char epcRating;
     private char councilTaxBand;
