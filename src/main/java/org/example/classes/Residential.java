@@ -1,5 +1,7 @@
 package org.example.classes;
 
+import org.example.classes.enums.WEEKDAYS;
+
 public class Residential extends Building{
 
     private char epcRating;
@@ -12,13 +14,14 @@ public class Residential extends Building{
         this.setEpcRating(epcRating);
         this.setCouncilTaxBand(councilTaxBand);
         this.setAddress(address);
+
     }
 
     public Residential() {
         this('?', '?',"UNKNOWN ADDRESS");
     }
 
-    public int estimateBills(){
+    public int estimateBills() {
         return 100;
     }
 

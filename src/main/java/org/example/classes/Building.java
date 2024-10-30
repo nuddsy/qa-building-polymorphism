@@ -6,7 +6,10 @@ public abstract class Building {
     private int price;
     private int sqFootage;
     private WEEKDAYS binDay;
+
     public abstract int estimateBills();
+
+    public abstract String getAddress();
 
     public int getPrice() {
         return price;
@@ -31,5 +34,7 @@ public abstract class Building {
     public void setBinDay(WEEKDAYS binDay) {
         this.binDay = binDay;
     }
+
+
 
 }
